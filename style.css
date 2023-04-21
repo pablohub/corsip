@@ -72,7 +72,6 @@ nav ul>li>a{
 }
 
 .container-title{
-    background: green;
     width: 100%;
     height: 52px;
     display: flex;
@@ -81,8 +80,12 @@ nav ul>li>a{
     color: white;
 }
 
-section#nosotros .container-title{
+.bg-gold{
     background: goldenrod;
+}
+
+.bg-black{
+    background: black;
 }
 
 .content{
@@ -140,13 +143,77 @@ section#nosotros .container-title{
     margin-bottom: 8px;
 }
 
+.content .col-4{
+    width: calc(100% / 4);
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.content .col-4 img{
+    width: 200px;
+    margin-bottom: 8px;
+}
+
 .content-complete{
     width: calc(100% - 200px);
     margin: auto;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .content-complete>p {
     line-height: 25px;
     padding: 10px 50px;
+}
+
+.lightgray{
+    background: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+.lightgray>p{
+    text-align: center!important;
+}
+
+.lightgray>hr{
+    border: 2px solid black;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container-img{
+    display: inline-block;
+    padding:5px;
+    box-sizing: border-box;
+    float:left;
+    height: 200px;
+}
+
+.container-img img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.black{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.black>p{
+    text-align: center!important;
+}
+
+.black>hr{
+    border: 2px solid white;
+    width: 50%;
+    margin: 10px auto;
 }
