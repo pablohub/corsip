@@ -368,8 +368,20 @@ footer{
     text-align:center;
     font-size:30px;
     z-index:100;
-  }
+}
   
-  .whatsapp-icon {
+.whatsapp-icon {
     margin-top:13px;
-  }
+}
+
+.iso{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.iso>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
